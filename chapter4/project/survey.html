@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href=".\styles\fusionStyles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Help Us Serve You Better</title>
+</head>
+<body>
+  <header class="logoAndName"> <name>MOHAVE</name> <br> Bar and Grill</header>
+
+  <!--Nav Bar Menu--->
+  <ul>
+    <li><a href="about.html">About</a></li>
+    <li><a href="breakfast.html">Breakfast Menu</a></li>
+    <li><a href="lunch.html">Lunch Menu</a></li>
+    <li><a href="dinner.html">Dinner Menu</a></li>
+    <li><a href="events.html">Upcomming Events</a></li>
+    <li><a href="locations.html">Locations</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="extras.html">Extras</a></li>
+    <li><a href="order.html">Order Now!!!</a></li>
+  </ul>
+
+<div>
+  <form action="#" method="get">
+    <fieldset>
+      <legend>Personal Information: </legend>
+        <input type="text"  name="firstName" placeholder="First Name" required><br>
+        <input type="text" name="mi" placeholder="Middle Initial" required><br>
+        <input type="text" name="lastName" placeholder="Last Name" required><br>
+        <input type="number" placeholder="Phone Number" name="phoneNumber"><br>
+      Date Visited: <input type="date" name="dateVisited" required><br>
+      Time of Date Visited:<br>
+        <input type="radio" name="periodOfDay" value="early">Early <br>
+        <input type="radio" name="periodOfDay" value="midday">Mid-Day <br>
+        <input type="radio" name="periodOfDay" value="afternoon">Afternoon <br>
+        <input type="radio" name="periodOfDay" value="evening">Evening <br>
+      Favorite Dish:
+      <select name="dishChoices">
+        <option value="pancakes">Banana Sour Cream Pancakes</option>
+        <option value="breakfastLasagna">Sausage Gravy Breakfast Lasagna</option>
+        <option value="cheeseburgers">Cheesy Cheeseburgers</option>
+        <option value="tenders">Buttermilk Fried Chicken Tenders</option>
+        <option value="lasagna">Baked Lasagna</option>
+        <option value="scampi">Shrimp Scampi with Linguini</option>
+        <option value="mozerellaStks">Mozzarella Sticks</option>
+        <option value="texasCheeseFries">Texas Cheese Fries</option>
+      </select><br>
+      Resturant Rating: <input type="range" list="tickmarks"><br>
+        <datalist id="tickmarks">
+          <option value="0" label="0">
+          <option value="1">
+          <option value="2">
+          <option value="3">
+          <option value="4">
+          <option value="5" label="5">
+          <option value="6">
+          <option value="7">
+          <option value="8">
+          <option value="9">
+          <option value="10" label="10">
+        </datalist> <br>
+        Comments <br>
+          <textarea name="comments" rows="8" cols="60"></textarea> <br>
+        <input type="checkbox" name="permission"> Permission to publish survey? <br>
+      <input type="submit"> <input type="reset">
+    </fieldset>
+  </form>
+</div>
+
+  <!-- p class="underConstruction">This page is comming soon /p-- >
+
+
+  <footer>
+    <p> &copy 2017 Robinson Enterprises <a href="employment.html">Careers</a>
+      <a href="survey.html">Talk to Us</a></p>
+  </footer>
+
+</body>
+</html>

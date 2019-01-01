@@ -1,0 +1,143 @@
+body {
+  background-color: #f2efea;
+}
+
+h1 {
+  background-color: #d7e1f2;
+  font-family: century gothic;
+}
+
+p {
+  font-weight: bold;
+  color: #1f2123;
+}
+
+.dish {
+  background-color: rgb(247, 185, 86);
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  border: 2px dashed #bc7f03;
+  border-radius: 25px;
+  font-family: century gothic;
+}
+
+.underConstruction {
+  color: orange;
+  font-style: italic;
+  font-family: century gothic;
+}
+
+div > summary {
+  color: red;
+}
+
+header, footer {
+  background-color: #bc8e43;
+
+}
+
+footer > p {
+  font-size:8 rem;
+}
+
+ul {
+  background-color: #474644;
+  color: white;
+  font-family: century gothic;
+  font-size: 30px;
+
+}
+
+li {
+  list-style: none;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: white;
+}
+
+li > a:link, a:visited {
+  color: orange;
+  text-decoration: none;
+}
+
+li > a:hover {
+  color: white;
+}
+
+.dish h1, h2, h3, h4, h5, h6 {
+  font-style: italic;
+  font-family: century gothic;
+}
+
+div > ul {
+  background-color: #f2efea;
+}
+
+#places > ul > li {
+  background-color: #f2efea;
+  color: black;
+  list-style: initial;
+  list-style-position: inside;
+  list-style-image: url("../images/location-images/small-arrow.png");
+  font-size: 30px;
+  width: 3000px;
+}
+
+.logoAndName{
+  font-family: century gothic;
+  font-style:  normal;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+ }
+
+ name {
+   letter-spacing: 25px;
+   text-decoration: underline ;
+ }
+
+ .description {
+   font-family: century gothic;
+   font-size: 20px;
+ }
+
+ .description > a:visited {
+   color: green;
+ }
+
+ .description > img {
+    margin: auto;
+ }
+
+ footer> p {
+   font-family: century gothic;
+   text-align: center;
+ }
+
+
+table{
+  border: 2px solid black;
+  background-color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #bc7f03;
+}
+
+.orderTable {
+  border: 2px solid black;
+  font-family: century gothic;
+  background-color: white;
+}
+ .orderTable tr:nth-child(odd){
+   background-color: white;
+ }
+ .or
+caption{
+  font-family: century gothic;
+}
